@@ -1,7 +1,5 @@
 # DASS-21 Measure Your Depression, Stress, Anxiety Levels
 
-[![Website](https://img.shields.io/website?down_message=offline&label=Live%20Demo&style=flat-square&up_message=online&url=https%3A%2F%2Fismielabir.github.io%2FDASS-21-Measure-Your-Depression-Stress-Anxiety-Levels%2F)](https://ismielabir.github.io/DASS-21-Measure-Your-Depression-Stress-Anxiety-Levels/)
-
 A web-based implementation of the Depression, Anxiety and Stress Scales (DASS-21) questionnaire to help users assess their mental health status.
 
 ## Features
