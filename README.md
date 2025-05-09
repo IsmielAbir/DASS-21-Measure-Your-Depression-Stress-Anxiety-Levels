@@ -1,6 +1,8 @@
 # DASS-21 Measure Your Depression, Stress, Anxiety Levels
 
-![Repo Views](https://reposs.app/api/v1/badge/IsmielAbir/DASS-21-Measure-Your-Depression-Stress-Anxiety-Levels/views)
+[![Repo Views](https://komarev.com/ghpvc/?username=IsmielAbir&label=Profile%20views&color=0e75b6&style=flat)](https://github.com/IsmielAbir)
+
+![GitHub repo views](https://img.shields.io/badge/dynamic/json?color=success&label=Repo%20Views&query=count&url=https://reposs.app/api/v1/IsmielAbir/DASS-21-Measure-Your-Depression-Stress-Anxiety-Levels/views)
 
 A web-based implementation of the Depression, Anxiety and Stress Scales (DASS-21) questionnaire to help users assess their mental health status.
 
