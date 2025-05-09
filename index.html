@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DASS Mental Health Assessment</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>DASS-21 Measure Your Depression, Stress, Anxiety Levels</h1>
+            <p>Understand your levels of Depression, Anxiety, and Stress</p>
+        </header>
+        
+        <div class="intro-card">
+            <h2>About DASS Assessment</h2>
+            <p>The Depression, Anxiety and Stress Scale (DASS) is a set of three self-report scales designed to measure the emotional states of depression, anxiety and stress. Each scale contains <b>only 7 questions </b> that assess the severity of symptoms over the past week. For this purpose, we used the DASS-21 questionnaire.</p>
+            <p>Select an assessment below to begin. Answer honestly based on how you've been feeling recently.</p>
+            <div class="disclaimer">
+                <input type="checkbox" id="disclaimer-check">
+                <label for="disclaimer-check">I understand this is not a diagnostic tool and I should consult a professional if concerned about my mental health</label>
+            </div>
+        </div>
+        
+        <div class="disorder-cards">
+            <a href="./depression.html" class="disorder-card depression">
+                <h3>Depression</h3>
+                <button class="btn btn-outline">Start Assessment</button>
+            </a>
+            
+            <a href="./anxiety.html" class="disorder-card anxiety">
+                <h3>Anxiety</h3>
+                <button class="btn btn-outline">Start Assessment</button>
+            </a>
+            
+            <a href="./stress.html" class="disorder-card stress">
+                <h3>Stress</h3>
+                <button class="btn btn-outline">Start Assessment</button>
+            </a>
+        </div>
+
+
+        <div class="intro-card">
+            <h2>References</h2>
+            <link>Lovibond, S. H., & Lovibond, P. F. (1995). Manual for the Depression Anxiety Stress Scales (2nd ed.). Psychology Foundation. http://www2.psy.unsw.edu.au/dass/ </p>
+        </div>
+
+
+        <footer>
+            <p>If you're in crisis, please contact your local emergency services or crisis hotline.</p>
+            <p>© <span id="current-year"></span> Measure Your Depression, Stress, Anxiety Levels</p>
+        </footer>
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>

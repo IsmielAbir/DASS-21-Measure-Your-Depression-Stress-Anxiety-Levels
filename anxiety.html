@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anxiety Assessment</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Anxiety Assessment</h1>
+            <p>Assessing symptoms of anxiety</p>
+        </header>
+        
+        <div id="assessment-container" class="assessment-container">
+            <h2 id="assessment-title">Anxiety Assessment</h2>
+            <div id="question-container" class="question-container">
+                <div id="progress-container" class="progress-container">
+                    <div id="progress-bar" class="progress-bar"></div>
+                </div>
+                <div id="question-number"></div>
+                <div id="question" class="question"></div>
+                <div id="options" class="options"></div>
+            </div>
+            
+            <div class="navigation">
+                <button id="prev-btn" class="btn btn-outline">Previous</button>
+                <button id="next-btn" class="btn">Next</button>
+            </div>
+        </div>
+        
+        <div id="result-container" class="result-container">
+            <h3 class="result-title">Your Anxiety Assessment Results</h3>
+            <div id="result-content"></div>
+            <br>
+            <div class="result-actions">
+                <a href="../index.html" class="btn">Back to Home</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/anxiety.js"></script>
+</body>
+</html>
